@@ -1,0 +1,25 @@
+body {
+  height: 100vh;
+  background-color: black;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.main {
+  display: flexbox;
+}
+.main h1 {
+  text-align: center;
+  color: antiquewhite;
+}
+
+.buttons a {
+  text-decoration: none;
+}
+.buttons button {
+  display: flex;
+  margin: 10px;
+  flex-direction: column;
+}
